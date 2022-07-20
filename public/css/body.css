@@ -1,0 +1,40 @@
+@import url('main.css');
+@import url('footer.css');
+@import url('header.css');
+
+/* Modularizamos el CSS de tal manera que cuando tengo que cargar mi CSS en su HTML solo vinculo
+main.css --> donde traigo todo lo necesario de los otros archivos css 
+Los import se colocan siempre al incio de cualquier archivo css */
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    border:none;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    background-color: #EAC926;
+}
+
+@media(min-width:481){
+    .descripcion{
+        display: none;
+    }
+    .lista1{
+        display: none;
+    }
+}
+
+@media(min-width:1280){
+    .burger-menu{
+        display: none;
+    }
+    main section ul li picture img{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}

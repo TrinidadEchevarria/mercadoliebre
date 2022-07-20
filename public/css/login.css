@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    border:none;
+}
+
+header{
+    background-color: #EAC926;
+}
+
+main{
+    background-color: #ebebeb;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#usuario{
+    display: flex;
+    height: 3rem;
+    width: 40rem;
+    color: #666;
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 0.5rem;
+}
+
+#constraseña{
+    display: flex;
+    height: 3rem;
+    width: 40rem;
+    color: #666;
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 0.5rem;
+}
+
+main section form button{
+    display: flex;
+    height: 3rem;
+    width: 40rem;
+    background-color: #1259c3;
+    color: white;
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 0.5rem;
+}
+
+.imagen1{
+    width: 50%;
+}
+
+.lista{
+    font-size: 12px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.d1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.titulo-footer{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.texto{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.icono-footer{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    margin: 10px;
+}
+
+footer .fa-solid{
+    color: #1259c3;
+    margin-bottom: 10px;
+    font-size: 2em;
+}

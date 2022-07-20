@@ -1,0 +1,64 @@
+main{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+.precio{
+    font-size: 18px;
+}
+
+.descuento{
+    color: #39b54a;
+    font-size: 16px;
+}
+
+.descripcion{
+    color: #666;
+    font-size: 16px;
+}
+
+.fa-truck{
+    color: #39b54a;
+}
+
+.caja0{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.caja1{
+    margin: 10px;
+    background-color: #ebebeb;
+    padding: 15px;
+}
+
+.caja2{
+    border-top: 1px solid #ebebeb;
+    background-color: white; 
+    padding: 15px;
+}
+
+.caja3{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main h1{
+    color: #666;
+    padding-bottom: 30px;
+}
+
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}

@@ -1,0 +1,24 @@
+.titulo-footer{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.texto{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.icono-footer{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    margin: 10px;
+}
+
+footer .fa-solid{
+    color: #1259c3;
+    margin-bottom: 10px;
+    font-size: 2em;
+}

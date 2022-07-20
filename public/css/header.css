@@ -1,0 +1,39 @@
+.imagen1{
+    width: 50%;
+}
+
+.lista{
+    font-size: 12px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.d1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.imagen2{
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.burger-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fas{
+    color: white;
+    background-color: #1259c3;
+    border: 8px solid #1259c3;
+    border-radius: 10%;
+}
+
